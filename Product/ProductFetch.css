@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.card h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.card p{
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

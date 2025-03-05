@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Generator</title>
+    <script src="loremGenrator.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Lorem Ipsum Generator</h1>
+    </div>
+
+    <div>
+        <label for="paragraphs">Paragraphs:</label>
+        <input type="range" id="paragraphs" min="1" max="10" value="1">
+    </div>
+
+    <div>
+        <label for="words">Words per Paragraph:</label>
+        <input type="range" id="words" min="1" max="100" value="10">
+    </div>
+
+    <div>
+        <label for="tags">Tags:</label>
+       <select id="tags">
+            <option value="p">p</option>
+            <option value="h1">h1</option>
+            <option value="h2">h2</option>
+            <option value="h3">h3</option>
+            <option value="h4">h4</option>
+            <option value="h5">h5</option>
+        </select>
+    </div>
+
+    <div>
+        <button onclick="generateLoremIpsum()">Generate</button>
+    </div>
+
+    <div>
+        <p id="result"></p>
+    </div>
+
+</body>
+</html>

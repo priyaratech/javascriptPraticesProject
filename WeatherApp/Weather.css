@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.background {
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* अपना बैकग्राउंड इमेज URL जोड़ें */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* विंडो की पूरी ऊंचाई लें */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white; /* टेक्स्ट का रंग सफेद */
+    text-shadow: 1px 1px 5px black; /* टेक्स्ट पर शैडो जोड़ें */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff; /* बटन का रंग सफेद */
+    color: white; /* टेक्स्ट का रंग सफेद */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .input-city{
+    padding: 10px 20px;
+    background-color: #011223; /* बटन का रंग सफेद */
+    color: white; /* टेक्स्ट का रंग सफेद */
+
+  }
